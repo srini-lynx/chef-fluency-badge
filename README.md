@@ -31,3 +31,15 @@ Getting Started
 Now that you have the chef-repo ready to go, check out [Learn Chef](https://learn.chef.io/) to proceed with your workstation setup. If you have any questions about Chef you can always ask [our support team](https://www.chef.io/support/) for a helping hand.
 =======
 Chef Fluency Badge Certification
+
+Chef-Solo
+
+It's an open source version of Chef-client 
+
+==> Chef solo does not relay on Chef Server for Centralized distribution but instead runs off of local cookbooks.
+
+==> Chef Solo does not have any type of authentication in order for it to run . 
+
+==> Chef solo is run independently on a node.
+
+	==> For example, if you only have one node to manage. 
