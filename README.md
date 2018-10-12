@@ -43,3 +43,13 @@ It's an open source version of Chef-client
 ==> Chef solo is run independently on a node.
 
 	==> For example, if you only have one node to manage. 
+
+Chef-Zero
+
+It's a lightweight Chef server that runs in-memory on the local node. 
+
+==> Allows chef-client to run against the chef-repo as if it was running against chef server 
+
+==> Useful for testing and validating the behaviour of chef-client against our cookbooks, recipes ,
+and run-lists before uploading those to the Chef-Server for Usage .
+
