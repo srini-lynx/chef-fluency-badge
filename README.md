@@ -53,3 +53,14 @@ It's a lightweight Chef server that runs in-memory on the local node.
 ==> Useful for testing and validating the behaviour of chef-client against our cookbooks, recipes ,
 and run-lists before uploading those to the Chef-Server for Usage .
 
+
+Chef-Server
+
+It's a Central point of management for nodes within an environment .
+
+	==> Authentication is required for the nodes to communicate with the Chef server.
+	==> During a convergence the chef-client pulls the updated cookbook, recipe, roles, and 
+	    environment information from Chef Server.
+	==> Chef server is used for managing many different nodes and different node scenario 
+	    configurations within an environment.
+
