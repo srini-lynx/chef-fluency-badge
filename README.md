@@ -64,3 +64,15 @@ It's a Central point of management for nodes within an environment .
 	==> Chef server is used for managing many different nodes and different node scenario 
 	    configurations within an environment.
 
+Some of hte knife command to manage the run_list 
+
+ sudo knife node show server6
+ knife node list
+ knife node show dev-server6
+ knife node run_list add dev-server6
+ knife node run_list add dev-server6 'recipe[qapache::websites]'
+ knife node show dev-server6
+ knife node run_list add dev-server6 'recipe[qapache::websites]' -b recipe['qapache']
+ knife node show dev-server6
+ knife node run_list remove dev-server6 'recipe[qapache::websites],recipe[qapache]'
+ knife node show dev-server6
