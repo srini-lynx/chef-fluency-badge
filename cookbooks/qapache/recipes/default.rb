@@ -20,4 +20,4 @@ service 'apache' do
 	action [:start, :enable]
 end
 
-include_recipe 'qapache::motd.rb'
+include_recipe 'qapache::motd'
