@@ -19,3 +19,5 @@ service 'apache' do
 	service_name pkg 
 	action [:start, :enable]
 end
+
+include_recipe 'motd.rb'
