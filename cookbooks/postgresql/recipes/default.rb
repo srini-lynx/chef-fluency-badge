@@ -9,7 +9,7 @@ package 'postgresql-server' do
 	notifies :run, 'execute[postgresql-init]'
 end
 
-execute 'postgresql-init' do
+execute 'postgresql-init]' do
 	command 'postgresql-setup initdb'
 	action :nothing
 end
