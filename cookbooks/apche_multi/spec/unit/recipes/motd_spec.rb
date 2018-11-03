@@ -1,12 +1,12 @@
 #
-# Cookbook:: motd_test
-# Spec:: default
+# Cookbook:: apche_multi
+# Spec:: motd
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'motd_test::default' do
+describe 'apche_multi::motd' do
   context 'When all attributes are default, on Ubuntu 16.04' do
     let(:chef_run) do
       # for a complete list of available platforms and versions see:

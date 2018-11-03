@@ -1,10 +1,10 @@
 name 'apche_multi'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Srini'
+maintainer_email 'sri.lynx@gmail.com'
 license 'All Rights Reserved'
 description 'Installs/Configures apche_multi'
 long_description 'Installs/Configures apche_multi'
-version '0.1.0'
+version '0.2.0'
 chef_version '>= 13.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
